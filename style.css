@@ -1,0 +1,44 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: url(./assets/img/bg.jpg) center/cover;
+}
+
+form {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+input[type="text"] {
+  height: 30%;
+  min-height: 25px;
+  font-size: 1.9rem;
+  padding: 5px;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 0 0 0 5px green;
+  border: none;
+  color: gray;
+}
+
+input[type="text"]:focus {
+  color: black;
+}
